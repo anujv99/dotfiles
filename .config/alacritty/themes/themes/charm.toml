@@ -1,0 +1,27 @@
+# Default colors
+[colors.primary]
+background = '#1e1e1e'  # Dark neutral
+foreground = '#fffdf5'  # Cream
+
+# Normal colors
+[colors.normal]
+black   = '#1e1e1e'
+red     = '#ed567a'  # Charm red
+green   = '#02bf87'  # Charm green
+yellow  = '#fffdf5'  # Soft cream as yellow
+blue    = '#5a56e0'  # Indigo
+magenta = '#f780e2'  # Fuchsia
+cyan    = '#50cacd'  # Soft cyan (invented to match)
+white   = '#cfcfcf'
+
+# Bright colors
+[colors.bright]
+black   = '#3a3a3a'
+red     = '#ff4672'  # Brighter red (Charm light mode)
+green   = '#02cf92'  # Lighter green
+yellow  = '#fffdf5'
+blue    = '#7571f9'  # Brighter indigo
+magenta = '#f780e2'
+cyan    = '#63d3ff'  # Brighter cyan
+white   = '#ffffff'
+
