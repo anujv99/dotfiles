@@ -17,3 +17,4 @@ vim.opt.wrap = false
 
 -- remove rust recommended settings
 vim.g.rust_recommended_style = '0'
+

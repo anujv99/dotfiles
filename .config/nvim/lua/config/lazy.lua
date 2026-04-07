@@ -25,10 +25,10 @@ local plugins = {
   -- themes
   { 'rose-pine/nvim', name = 'rose-pine' },
   'rebelot/kanagawa.nvim',
-  { 'catppuccin/nvim', name = 'catppuccin', tag = 'v1.9.0' },
+  { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
   'nyoom-engineering/oxocarbon.nvim',
   { 'monsonjeremy/onedark.nvim', branch = 'treesitter' },
-  { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ... },
+  { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
 
   -- treesitter
   { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' },
