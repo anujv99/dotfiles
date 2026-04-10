@@ -74,3 +74,11 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+(setq gc-cons-threshold (* 100 1024 1024)
+      read-process-output-max (* 1024 1024))
+(setq-default eglot-send-changes-idle-time 0.1)
+
+(use-package! eglot-booster
+  :after eglot
+  :config (eglot-booster-mode))
